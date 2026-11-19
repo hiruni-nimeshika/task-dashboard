@@ -2,7 +2,7 @@
   "name": "task-dashboard",
   "version": "0.1.0",
   "private": true,
-"scripts": {
+  "scripts": {
     "dev": "concurrently -n web,api -c blue,green \"next dev\" \"npm:api\"",
     "api": "json-server --watch db.json --port 4000 --delay 400",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
-},
+  },
   "dependencies": {
     "@hookform/resolvers": "^7.0.7",
     "@radix-ui/react-dialog": "^1.3.1",

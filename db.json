@@ -1,17 +1,721 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Design onboarding flow",
-      "description": "Wireframes for the three-step signup, including empty states.",
-      "status": "in_progress",
+      "id": 2,
+      "title": "Task 2: Update the dashboard",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "John Doe",
+      "tags": [
+        "bug"
+      ],
+      "dueDate": "2026-11-23",
+      "createdAt": "2026-10-24T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 3,
+      "title": "Task 3: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "docs",
+        "bug"
+      ],
+      "dueDate": "2026-11-26",
+      "createdAt": "2026-10-25T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 4,
+      "title": "Task 4: Refactor auth flow",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "api",
+        "bug"
+      ],
+      "dueDate": "2026-11-29",
+      "createdAt": "2026-11-07T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 5,
+      "title": "Task 5: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "medium",
+      "priorityRank": 2,
+      "assignee": "Sam Wilson",
+      "tags": [
+        "frontend",
+        "design"
+      ],
+      "dueDate": "2026-11-16",
+      "createdAt": "2026-10-21T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 6,
+      "title": "Task 6: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Michael Brown",
+      "tags": [
+        "frontend",
+        "design"
+      ],
+      "dueDate": "2026-12-03",
+      "createdAt": "2026-11-04T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 7,
+      "title": "Task 7: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
       "priority": "high",
       "priorityRank": 3,
       "assignee": "Amara Perera",
-      "tags": ["design", "onboarding"],
-      "dueDate": "2026-11-27",
-      "createdAt": "2026-11-10T09:15:00.000Z",
-      "updatedAt": "2026-11-18T14:02:00.000Z"
+      "tags": [
+        "design",
+        "testing"
+      ],
+      "dueDate": "2026-11-21",
+      "createdAt": "2026-11-11T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 8,
+      "title": "Task 8: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Sam Wilson",
+      "tags": [
+        "api",
+        "frontend"
+      ],
+      "dueDate": "2026-11-19",
+      "createdAt": "2026-11-06T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 9,
+      "title": "Task 9: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "feature",
+        "api"
+      ],
+      "dueDate": "2026-11-14",
+      "createdAt": "2026-11-01T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 10,
+      "title": "Task 10: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "backend",
+        "frontend"
+      ],
+      "dueDate": "2026-11-24",
+      "createdAt": "2026-11-04T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 11,
+      "title": "Task 11: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "feature"
+      ],
+      "dueDate": "2026-11-21",
+      "createdAt": "2026-11-08T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 12,
+      "title": "Task 12: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "John Doe",
+      "tags": [
+        "testing",
+        "ui"
+      ],
+      "dueDate": "2026-11-16",
+      "createdAt": "2026-11-08T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 13,
+      "title": "Task 13: Write API documentation",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "feature",
+        "frontend"
+      ],
+      "dueDate": "2026-11-26",
+      "createdAt": "2026-11-09T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 14,
+      "title": "Task 14: Refactor auth flow",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "ui",
+        "bug"
+      ],
+      "dueDate": "2026-11-21",
+      "createdAt": "2026-11-18T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 15,
+      "title": "Task 15: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "John Doe",
+      "tags": [
+        "design",
+        "bug"
+      ],
+      "dueDate": "2026-11-14",
+      "createdAt": "2026-10-27T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 16,
+      "title": "Task 16: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Amara Perera",
+      "tags": [
+        "frontend",
+        "bug"
+      ],
+      "dueDate": "2026-12-01",
+      "createdAt": "2026-10-23T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 17,
+      "title": "Task 17: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Sam Wilson",
+      "tags": [
+        "testing",
+        "feature"
+      ],
+      "dueDate": "2026-11-24",
+      "createdAt": "2026-11-11T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 18,
+      "title": "Task 18: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Amara Perera",
+      "tags": [
+        "design",
+        "feature"
+      ],
+      "dueDate": "2026-11-17",
+      "createdAt": "2026-10-24T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 19,
+      "title": "Task 19: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "medium",
+      "priorityRank": 2,
+      "assignee": "Michael Brown",
+      "tags": [
+        "backend",
+        "ui"
+      ],
+      "dueDate": "2026-11-29",
+      "createdAt": "2026-10-28T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 20,
+      "title": "Task 20: Create marketing page",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Jane Smith",
+      "tags": [
+        "bug",
+        "api"
+      ],
+      "dueDate": "2026-11-21",
+      "createdAt": "2026-10-27T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 21,
+      "title": "Task 21: Update the dashboard",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "testing",
+        "docs"
+      ],
+      "dueDate": "2026-11-16",
+      "createdAt": "2026-11-11T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 22,
+      "title": "Task 22: Refactor auth flow",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "John Doe",
+      "tags": [
+        "backend",
+        "bug"
+      ],
+      "dueDate": "2026-11-18",
+      "createdAt": "2026-10-25T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 23,
+      "title": "Task 23: Update the dashboard",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Amara Perera",
+      "tags": [
+        "docs",
+        "frontend"
+      ],
+      "dueDate": "2026-12-03",
+      "createdAt": "2026-11-18T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 24,
+      "title": "Task 24: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "John Doe",
+      "tags": [
+        "backend",
+        "frontend"
+      ],
+      "dueDate": "2026-11-30",
+      "createdAt": "2026-11-03T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 25,
+      "title": "Task 25: Fix login bug",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "api",
+        "frontend"
+      ],
+      "dueDate": "2026-11-22",
+      "createdAt": "2026-11-19T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 26,
+      "title": "Task 26: Fix login bug",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "docs",
+        "bug"
+      ],
+      "dueDate": "2026-11-14",
+      "createdAt": "2026-11-05T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 27,
+      "title": "Task 27: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Sam Wilson",
+      "tags": [
+        "api",
+        "docs"
+      ],
+      "dueDate": "2026-11-28",
+      "createdAt": "2026-11-06T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 28,
+      "title": "Task 28: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "bug"
+      ],
+      "dueDate": "2026-11-17",
+      "createdAt": "2026-11-11T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 29,
+      "title": "Task 29: Fix login bug",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "feature",
+        "ui"
+      ],
+      "dueDate": "2026-12-02",
+      "createdAt": "2026-11-04T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 30,
+      "title": "Task 30: Update the dashboard",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Michael Brown",
+      "tags": [
+        "docs",
+        "frontend"
+      ],
+      "dueDate": "2026-11-28",
+      "createdAt": "2026-11-11T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 31,
+      "title": "Task 31: Write API documentation",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "medium",
+      "priorityRank": 2,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "api",
+        "backend"
+      ],
+      "dueDate": "2026-11-29",
+      "createdAt": "2026-10-27T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 32,
+      "title": "Task 32: Update the dashboard",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Jane Smith",
+      "tags": [
+        "ui",
+        "api"
+      ],
+      "dueDate": "2026-11-20",
+      "createdAt": "2026-10-24T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 33,
+      "title": "Task 33: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "medium",
+      "priorityRank": 2,
+      "assignee": "Sam Wilson",
+      "tags": [
+        "ui",
+        "frontend"
+      ],
+      "dueDate": "2026-11-18",
+      "createdAt": "2026-10-28T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 34,
+      "title": "Task 34: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Michael Brown",
+      "tags": [
+        "testing",
+        "api"
+      ],
+      "dueDate": "2026-11-25",
+      "createdAt": "2026-11-09T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 35,
+      "title": "Task 35: Write API documentation",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "ui",
+        "design"
+      ],
+      "dueDate": "2026-11-23",
+      "createdAt": "2026-11-01T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 36,
+      "title": "Task 36: Refactor auth flow",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "medium",
+      "priorityRank": 2,
+      "assignee": "Alex Johnson",
+      "tags": [
+        "api",
+        "feature"
+      ],
+      "dueDate": "2026-11-28",
+      "createdAt": "2026-11-04T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 37,
+      "title": "Task 37: Update the dashboard",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Amara Perera",
+      "tags": [
+        "frontend",
+        "design"
+      ],
+      "dueDate": "2026-12-01",
+      "createdAt": "2026-11-06T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 38,
+      "title": "Task 38: Write API documentation",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Jane Smith",
+      "tags": [
+        "docs",
+        "feature"
+      ],
+      "dueDate": "2026-11-23",
+      "createdAt": "2026-10-23T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 39,
+      "title": "Task 39: Write API documentation",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Jane Smith",
+      "tags": [
+        "api",
+        "backend"
+      ],
+      "dueDate": "2026-11-29",
+      "createdAt": "2026-11-15T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 40,
+      "title": "Task 40: Add unit tests",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "low",
+      "priorityRank": 1,
+      "assignee": "Michael Brown",
+      "tags": [
+        "bug",
+        "backend"
+      ],
+      "dueDate": "2026-11-30",
+      "createdAt": "2026-10-23T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 41,
+      "title": "Task 41: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Jane Smith",
+      "tags": [
+        "bug",
+        "api"
+      ],
+      "dueDate": "2026-11-22",
+      "createdAt": "2026-11-14T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 42,
+      "title": "Task 42: Refactor auth flow",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_progress",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Michael Brown",
+      "tags": [
+        "backend",
+        "docs"
+      ],
+      "dueDate": "2026-11-17",
+      "createdAt": "2026-11-01T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 43,
+      "title": "Task 43: Design new layout",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Michael Brown",
+      "tags": [
+        "ui",
+        "design"
+      ],
+      "dueDate": "2026-11-16",
+      "createdAt": "2026-10-31T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 44,
+      "title": "Task 44: Create marketing page",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "done",
+      "priority": "medium",
+      "priorityRank": 2,
+      "assignee": "Jane Smith",
+      "tags": [
+        "bug",
+        "ui"
+      ],
+      "dueDate": "2026-11-22",
+      "createdAt": "2026-10-31T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.655Z"
+    },
+    {
+      "id": 45,
+      "title": "Task 45: Optimize database queries",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "in_review",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "api",
+        "bug"
+      ],
+      "dueDate": "2026-11-15",
+      "createdAt": "2026-10-31T16:52:47.655Z",
+      "updatedAt": "2026-11-19T16:52:47.656Z"
+    },
+    {
+      "id": 46,
+      "title": "Task 46: Fix login bug",
+      "description": "This is a randomly generated task description for testing pagination, filtering, and chart rendering.",
+      "status": "todo",
+      "priority": "urgent",
+      "priorityRank": 4,
+      "assignee": "Sarah Connor",
+      "tags": [
+        "ui",
+        "frontend"
+      ],
+      "dueDate": "2026-11-24",
+      "createdAt": "2026-10-26T16:52:47.656Z",
+      "updatedAt": "2026-11-19T16:52:47.656Z"
     }
   ]
 }
