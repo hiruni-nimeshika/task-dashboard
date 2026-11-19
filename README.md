@@ -11,8 +11,6 @@ backed by a JSON Server mock REST API.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-v5-FF4154?logo=reactquery&logoColor=white)
 
-<!-- Replace with your own links, or delete this line -->
-**[Live demo](https://your-demo-url.vercel.app)** · **[Video walkthrough](https://your-video-link)**
 
 ![TaskFlow dashboard](docs/screenshots/dashboard-dark.png)
 
