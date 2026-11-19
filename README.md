@@ -311,7 +311,7 @@ flowchart TD
 
 ## Author
 
-**[Your Full Name]**
+**Hiruni Nimeshika Dehimaduge**
 
 - Email:hirunidehimaduge@gmail.com
 - LinkedIn:https://www.linkedin.com/in/hiruni-nimeshika-6353a839a
