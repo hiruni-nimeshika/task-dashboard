@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design onboarding flow",
+      "description": "Wireframes for the three-step signup, including empty states.",
+      "status": "in_progress",
+      "priority": "high",
+      "priorityRank": 3,
+      "assignee": "Amara Perera",
+      "tags": ["design", "onboarding"],
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-11-10T09:15:00.000Z",
+      "updatedAt": "2026-11-18T14:02:00.000Z"
+    }
+  ]
+}
